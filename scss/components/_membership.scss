@@ -1,0 +1,16 @@
+.memebership-area {
+    background:$color-primary ;
+    background:-webkit-linear-gradient(to-left,$color-secondary,$kashmir-blue  );
+
+    background: -webkit-gradient(linear, right top, left top, from($color-secondary), to($kashmir-blue  ));
+    background:linear-gradient(to left,$color-secondary,$kashmir-blue  y);
+    
+}
+.membership-description h2{
+    color:$white;
+    font-size:$md2__heading;
+}
+.membership-description p{
+    color:$white;
+    
+}

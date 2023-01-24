@@ -1,0 +1,86 @@
+/*--------- Contact / Footer -------------*/
+
+/*---  signIn buttons - Contact area---*/
+.contact-area .app-download-area {
+        display:block;
+        width:100%;
+        margin-top:20px;
+        margin-left:auto;
+        margin-right:auto;
+
+        @include mq(medium){
+            margin-left:0;
+        }
+
+        
+}
+
+.contact-area .section-heading{
+    margin-bottom:40px;
+}
+/*-------- upcoming event ---------*/
+.upcoming-event {
+
+    padding:15px;
+    border:.5px solid #F4F4F4;
+    border-radius:10px;
+    margin-top:15px;
+ 
+box-shadow:0px 5px 10px 0px rgba(140, 133, 140, 0.2)
+;
+}
+.upcoming-event a p{
+    /*line-height:.4;*/
+    margin-bottom:5px;
+}
+
+.event{
+    font-size:$base-big__font-size;
+    font-weight:$font-weight--bold;
+}
+.when{
+    font-size:$base-sm__font-size;
+    font-weight:$font-weight--thin ;
+    color:$light-grey;
+}
+.where{
+    font-weight:$font-weight--md-thick ;
+}
+.event-area{
+    height:417px;
+    @include mq(xs){
+        pointer-events: none;
+        cursor: default;
+        opacity:.8;
+ }  
+}
+.contact-area .section-heading .line-shape{
+    margin-left:0;
+}
+#name, #email{
+    font-size:icn-xs--size;
+    padding:15px 15px;
+    border-radius:25px;
+    margin-bottom:15px;
+    height:60px;
+}
+#message{
+    border-radius:25px;
+    border:1px solid #ced4da;;
+    width:100%;
+&:focus,
+&:hover{
+    border-radius:25px;
+}
+}
+
+#scrollUp {
+    bottom: 0;
+    font-size: 24px;
+    right: 0;
+    width: 50px;
+    background-color: #50659D;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;}

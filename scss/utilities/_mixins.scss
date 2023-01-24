@@ -1,0 +1,48 @@
+@mixin btn{
+    font-weight: 500;
+    display: inline-block;
+    border: 2px solid $white;
+    outline: none;
+    height: 50px;
+    background: transparent;
+    transition: .5s;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 24px;
+    color:$white;
+    cursor:pointer;
+    width:90%;
+}
+// -----------------Media Query Mixin-------------------
+
+@mixin mq($break){
+@if $break == "xxs" {
+        @media (min-width: $brkpoint-xs) {
+         @content;
+        }
+    }
+    @if $break == "xs" {
+        @media (min-width: $brkpoint-xs) {
+         @content;
+        }
+    }
+    @else if $break == "small" {
+        @media (min-width: $brkpoint-sm) {
+         @content;
+        }
+    }
+    @else if $break == "medium" {
+        @media (min-width: $brkpoint-md ){
+            @content;
+        }   
+    }
+    @else if $break == "large"{
+        @media (min-width: $brkpoint-lg){
+            @content;
+        }
+    }
+    @else {
+        @error "'#{$break}' is not a valid query!";
+    }
+
+}

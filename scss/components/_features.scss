@@ -1,0 +1,18 @@
+/*----------------Features----------------------*/
+.feature{
+	margin-bottom: 50px;
+}
+
+.feature  h5{
+	font-size:$xs__heading;
+	color:$color-secondary;
+	display: inline-block;
+}
+.feature i{
+	color:$icon-color;
+	font-size:$icn-sm--size;
+	margin-right:10px;
+}
+.feature p{
+	margin-top:15px;
+}

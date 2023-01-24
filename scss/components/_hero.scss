@@ -1,0 +1,98 @@
+/* ------------------Welcome Area-----------------*/
+.wellcome-area{
+background:url("../img/bg-img/sc-bg.png");
+    height:1050px;
+    width:100%;
+    position:relative;
+    z-index: 1;
+    background-position: bottom center;
+    background-size:cover;
+}
+.heading1{
+    color:$white;
+    font-weight:$font-weight--bold;
+    position:relative;
+    z-index:3;
+    line-height:1.2;
+    margin-top:200px;
+    font-size:$md__heading ;
+    @include mq(small){
+        font-size:$xxl__heading ;
+    }
+}
+.heading2{
+    color:$white;
+    letter-spacing: 0.01em;
+    max-width:640px;
+    font-weight:$font-weight--medium;
+    padding-bottom:10px;
+    @include mq(small){
+        
+         padding-bottom:0;
+    }
+}
+.link{
+    color:$white;
+    font-size:$base__font-size;
+    text-decoration:underline!important;
+    padding:10px;
+    &:hover{
+    color:$white;
+    }
+}
+ .link-blue{
+    color:$picton-blue;
+    font-size:$base__font-size;
+    text-decoration:underline!important;
+    padding-left:15%;
+    
+    
+    
+    &:hover{
+    color:$picton-blue;
+    }
+    
+}
+.welcome-thumb img{
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+.welcome-thumb {
+    width: 90%;
+    padding-top:20px;
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    z-index: -1;
+    @include mq(xs) {
+         width: 80%;
+         bottom:-8%;
+    }
+    @include mq(small) {
+
+        width:70%!important;
+        bottom:-70px;
+        right:0;
+
+    }
+    
+    
+    @include mq(small) {
+        width:50%!important;
+        bottom:-100px;
+         right:0;
+    }
+
+    @include mq(medium) {
+        width:50%!important;
+        bottom:-100px;
+         right:50px;
+    }
+
+    @include mq(large) {
+        width:45%!important;
+        bottom:-40px;
+         right:85px;
+    }
+}

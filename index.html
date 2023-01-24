@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SportCompass</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet"  href="css/slick.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body id="body">
+    <header class="header_area animated " id="header">
+        <div class="container-fluid">
+            <div class="row align-item-center">
+                <div class="col-12 col-lg-10">
+                    <div class="menu-area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="#">Sc</a>
+                            <button class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto ">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#about">About</a>
+                                        </li>
+                                        <!--<li class="nav-item">
+                                            <a class="nav-link" href="#">Features</a>
+                                        </li>-->
+                                        <!--<li class="nav-item">
+                                            <a class="nav-link" href="#">Testimonials</a>
+                                        </li>-->
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#team">Team</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contact">Contact</a>
+                                        </li>
+                                        <li class="login-button d-sm-none fix-it">
+                                        <a>Log In Free </a>
+                                    </li>
+                                    <li class="login-button d-none d-sm-block d-lg-none fix-it"  onclick="on()">
+                                        <a>Log In Free </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <div class="login-button d-none d-lg-block"  onclick="on()">
+                        <a>Log In Free</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- end-of-header -->
+<section class="wellcome-area clearfix" id="home">
+<div class="container">
+    <!--overlay-area-start--->
+    <div id="overlay" onclick="off()">
+        <div id="text" >
+            <div class="close-button d-none d-sm-block" onclick="off()"><i class="fas fa-times"></i></div>
+            <div class="container justify-content-center">
+                <div class="row d-none d-sm-block d-lg-none text-center ">
+                <div class="col-12  mx-auto">
+                    <h2 class="overlay-heading " >Visit this page from your mobile to access the app</h2>
+                    <img src="./img/bg-img/mobile_mockup.png " class="app-on-phone mx-auto" >
+                     <h2 class="overlay-text ">Use SportCompass to find out which bars are showing your favorite games and the first beer is always on the house!</h2>
+
+                </div>
+            </div>
+            </div>
+            <div class="container d-none d-lg-block">
+            <div class="row   ">
+                <div class="col-lg-4 ">
+                    <img src="./img/bg-img/mobile_mockup.png" >
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="overlay-heading" >Visit this page from your mobile to access the app</h2>
+                     <h2 class="overlay-text ">Use SportCompass to find out which bars are showing your favorite games and the first beer is always on the house!</h2>
+                </div>
+            </div>
+            </div>
+       </div>
+    </div>
+    <!--overlay-area-ends--->
+    <div class="row align-item-center">
+        <div class="col-12 col-md">
+            <div class="col-10 mx-auto">
+                <h2 class="heading1">Watching sports just became more fun!</h2>
+                <h4 class="heading2 ">Use SportCompass to find out which bars are showing your favorite games and the first beer is always on the house!</h4>
+                <a href="" class="link d-sm-none">Check out our upcoming events</a>
+
+            </div><!--end-of-welcome heading"-->
+            <div class="download-app  col-10 d-none d-sm-block mx-auto">
+                <!--<div class="sign-in-btn wow fadeInUp d-sm-block d-none mt-sm-2 mt-md-0 ">
+                 <a href="#" class="">Mobile Login</a>
+                </div>-->
+                <!--<div class="sign-in-btn wow fadeInUp" data-wow-delay="0.2s">
+
+                </div>-->
+                <div class="sign-in-btn wow fadeInUp d-md-inline-block" data-wow-delay="0.2s" onclick="on()">
+                <!-- Google Store Btn -->
+                    <a>
+                        <i class="fab fa-google"></i>
+                        <p class="mb-0"><span>Sign in with</span> Google</p>
+                    </a>
+                </div>
+                <div class="sign-in-btn wow fadeInDown d-md-inline-block" data-wow-delay="0.4s"  onclick="on()">
+                    <a>
+                        <i class="fab fa-facebook-f"></i>
+                        <p class="mb-0"><span>Sign in with</span> Facebook</p>
+                    </a>
+                </div>
+                </div>
+
+                <div class="download-app  col-10 mx-auto d-sm-none ">
+                <!--<div class="sign-in-btn wow fadeInUp d-sm-block d-none mt-sm-2 mt-md-0 ">
+                 <a href="#" class="">Mobile Login</a>
+                </div>-->
+                <div class="sign-in-btn wow fadeInUp" data-wow-delay="0.2s">
+
+                </div>
+                <div class="sign-in-btn wow fadeInUp" data-wow-delay="0.2s" onclick="on()">
+                <!-- Google Store Btn -->
+                    <a>
+                        <i class="fab fa-google"></i>
+                        <p class="mb-0"><span>Sign in with</span> Google</p>
+                    </a>
+                </div>
+                <div class="sign-in-btn wow fadeInDown" data-wow-delay="0.4s"  onclick="on()">
+                    <a>
+                        <i class="fab fa-facebook-f"></i>
+                        <p class="mb-0"><span>Sign in with</span> Facebook</p>
+                    </a>
+                </div>
+                </div>
+                <!-- if a form required -->
+                <!--<form action="#" method="post" class="form-inline">
+                    <input type="submit" class="submit btn--follow-us" value="Facebook">
+                    <input type="submit" class="submit btn--follow-us" value="Google">
+                </form>-->
+               <!-- </div>--><!--end-of-get started"-->
+        </div><!--end-of-col"-->
+    </div><!--end-of-row"-->
+</div><!--end-of-container"-->
+<div class="welcome-thumb wow fadeInDown " data-wow-delay="0.5s" >
+    <img src="./img/bg-img/vp.svg" alt="" >
+</div>
+</section>
+
+<!--  Benifit/Specialities   -->
+    <section class="special-area bg-white section_padding_100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mt-100">
+                        <h2>What Makes It Special</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="benefits text-center wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="benifit-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Easy to Use</h4>
+                        <p>SportCompass allows you to quickly see which bars and venues are showing upcoming football games on big screens. No more Googling or searching Facebook events.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="benefits text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="benifit-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <h4>First Drink On The House</h4>
+                        <p>Use SportCompass to find a pub near you, then log into your account during a game to get a free drink, then sit back and enjoy the match!</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="benefits text-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="benifit-icon">
+                            <i class="far fa-user"></i>
+                        </div>
+                        <h4>Community Driven</h4>
+                        <p>SportCompass isn’t just a website, but a thriving, friendly community of football fans.<br>Go to one of our events alone, and you’ll leave with new friends.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- No-Signup-Required -->
+        <div class="no-signup-area mt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="no-signup-img">
+                            <img src="img/bg-img/sc-phones.png" class="wow fadeInDown" data-wow-delay="0.3s" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 ml-xl-auto ">
+                        <div class="no-signup-content">
+                            <h2>No sign up required</h2>
+                            <p class="d-sm-none">Easily log in through Facebook or Google and see all the upcoming games and events.</p>
+                            <p class="d-none d-sm-block"> Visit our website on your phone to see all the upcoming games and events.</p>
+                            <div class="app-download-area col-10 col-md-12 m-auto">
+                                <div class="sign-in-btn wow fadeInUp" data-wow-delay="0.2s" onclick="on()">
+                                    <a >
+                                      <i class="fab fa-google"></i>
+                                        <p class="mb-0"><span>Sign in with</span> Google</p>
+                                    </a>
+                                </div>
+                                <div class="sign-in-btn wow fadeInDown mb-2" data-wow-delay="0.4s" onclick="on()" >
+                                    <a >
+                                        <i class="fab fa-facebook-f"></i>
+                                        <p class="mb-0"><span>Sign in with</span> Facebook</p>
+                                    </a>
+                                </div>
+                                 <a href="#" class="link-blue d-sm-none mx-auto">Check out our upcoming events</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of benefits -->
+    <!-- Features  -->
+   <!-- <section class="feature-area bg-white section_padding_0_50 clearfix" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">-->
+                    <!-- Heading Text -->
+                    <!--<div class="section-heading text-center">
+                        <h2>Awesome Features</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="feature">
+                        <i class="far fa-user"></i>
+                        <h5>Awesome Experience</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>-->
+                <!-- Feature[1] -->
+                <!--<div class="col-12 col-sm-6 col-lg-4">
+                    <div class="feature">
+                        <i class="fas fa-chart-line"></i>
+                        <h5>Fast and Simple</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>-->
+               <!-- Feature[2] -->
+               <!-- <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="feature">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h5>Clean Code</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div> -->
+                <!-- Feature[3] -->
+                <!--<div class="col-12 col-sm-6 col-lg-4">
+                    <div class="feature">
+                        <i class="fas fa-palette"></i>
+                        <h5>Perfect Design</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>-->
+                <!-- Feature[4] -->
+               <!-- <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="feature">
+                        <i class="fas fa-crown"></i>
+                        <h5>Best Industry Leader</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div> -->
+                <!-- Feature[5] -->
+                <!--<div class="col-12 col-sm-6 col-lg-4">
+                    <div class="feature">
+                       <i class="fas fa-headphones-alt"></i>
+                        <h5>24/7 Online Support</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- end of Features -->
+    <!--  Counter/Facts -->
+    <section class="cool-facts-area clearfix">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Fact[1] -->
+                <div class="col-12 col-md-4 col-lg-4 ">
+                    <div class="fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="counter-area">
+                            <h3><span class="counter">1000</span>+</h3>
+                        </div>
+                        <div class="facts-content">
+                           <i class="fas fa-beer"></i>
+                            <p>BEERS</p><p> CLAIMED</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fact[2] -->
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="counter-area">
+                            <h3><span class="counter">1500</span>+</h3>
+                        </div>
+                        <div class="facts-content">
+                           <i class="far fa-smile"></i>
+                            <p>HAPPY</p><p> FANS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fact[3] -->
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="counter-area">
+                            <h3><span class="counter">200</span>+</h3>
+                        </div>
+                        <div class="facts-content">
+                            <i class="far fa-calendar-check"></i>
+                            <p>EVENTS </p><p>ORGANIZED</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of Counter -->
+
+    <!--client feedback area --><!--Testimonials -->
+    <!--<section class="feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <div class="slider slider-for">-->
+                        <!-- feedback[1] -->
+                        <!--<div class="feedback-text text-center">
+                            <div claass="client">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="name text-center">
+                                <h5>Aigers Silkaln</h5>
+                                <p>CEO Colorlib</p>
+                            </div>
+                        </div>-->
+                           <!-- feedback[2] -->
+                       <!-- <div class="feedback-text text-center">
+
+
+                            <div claass="client">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="description text-center">
+                                <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="name text-center">
+                                <h5>Jenifer</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>-->
+                       <!-- <div class="slider slider-for"> -->
+                         <!-- feedback[2] -->
+                      <!--  <div class="feedback-text text-center">
+                            <div claass="client">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="name text-center">
+                                <h5>Helen</h5>
+                                <p>Marketer</p>
+                            </div>
+                        </div>-->
+                        <!-- feedback[1] -->
+                        <!--<div class="feedback-text text-center">
+                            <div claass="client">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="name text-center">
+                                <h5>Henery Smith</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  </div>-->
+                <!-- Client thumbnals -->
+              <!--  <div class="col-12 col-md-6 col-lg-5">
+                    <div class="slider slider-nav">
+                        <div class="thumbnail">
+                            <img src="img/bg-img/client-3.jpg" alt="">
+                        </div>
+                         <div class="thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="img/bg-img/client-1.jpg" alt="">
+                        </div>
+                         <div class="thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+       </div>
+    </section>-->
+    <!-- The team at sport compass -->
+    <section class="team-area bg-white section_padding_100 clearfix" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class = "section-heading">
+                        <h2> The Team </h2>
+                         <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row team-slider">
+
+                <!-- Member[1] -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="team-member ">
+                        <div class="team-member-pic ">
+                            <img src="img/team-img/member-1.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Calin-Alexandru Buruian</h4>
+                            <p>Founder &amp; Chief Executive Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member[2] -->
+                 <div class="col-12 col-md-6 col-lg-3">
+                    <div class="team-member ">
+                        <div class="team-member-pic ">
+                            <img src="img/team-img/member-1.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Daniel Sindrestean</h4>
+                            <p>Founder &amp; Chief Technology Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member[3] -->
+                 <div class="col-12 col-md-6 col-lg-3">
+                    <div class="team-member ">
+                        <div class="team-member-pic ">
+                            <img src="img/team-img/member-1.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Gareth Griffiths</h4>
+
+                            <p>Founder &amp; Senoir Full Stack Developer</p>
+
+                           
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Member[4] -->
+                 <div class="col-12 col-md-6 col-lg-3">
+                    <div class="team-member ">
+                        <div class="team-member-pic ">
+                            <img src="img/team-img/member-1.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Andrei Alexe</h4>
+                            <p>Chief Design Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                     <!-- Member[5] -->
+                    <div class="team-member">
+                        <div class="team-member-pic">
+                            <img src="img/team-img/member-4.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Mitra Aarabi</h4>
+                            <p>Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member[6] -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="team-member">
+                        <div class="team-member-pic">
+                            <img src="img/team-img/member-3.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Oluwaleke Fakorede</h4>
+                            <p>Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Member[7] -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="team-member">
+                        <div class="team-member-pic">
+                            <img src="img/team-img/member-3.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Hafizullah Qasemi</h4>
+                            <p>Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Member[8] -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="team-member">
+                        <div class="team-member-pic">
+                            <img src="img/team-img/member-3.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Rakesh Panda</h4>
+                            <p>Front-End Developer</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Member[9] -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="team-member">
+                        <div class="team-member-pic">
+                            <img src="img/team-img/member-3.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Rita Paul</h4>
+                            <p>Front-End Developer</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Member[10] -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="team-member">
+                        <div class="team-member-pic">
+                            <img src="img/team-img/member-3.jpg" alt="">
+
+                        </div>
+                        <div class="team-member-title ">
+                            <h4>Sangam Thapa </h4>
+                            <p>Marketing Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member[11] -->
+               <div class="col-12 col-md-6 col-lg-3">
+                   <div class="team-member">
+                       <div class="team-member-pic">
+                           <img src="img/team-img/member-3.jpg" alt="">
+
+                       </div>
+                       <div class="team-member-title ">
+                           <h4>Jakov Ravlic</h4>
+                           <p>Videographer</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Staff CTA -->
+    <section>
+        <div class="memebership-area section_padding_50" id="contact">
+            <div class="container">
+            <div class="row align-item-center">
+                <div class="col-md-8 mx-auto">
+                    <div class="membership-description text-center">
+                        <h2>Follow your own compass</h2>
+                        <p>Do you like what we're doing and want to lend a helping hand? Tell us what you are good at and we might have a spot for you on our team. Our base is in Copenhagen, but many of our team members work remotely from across the world. Just send an email at contact@sportcompass.dk and we’ll get back to you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="contact-area section_padding_100">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="section-heading">
+                        <h2>Join One Of Our Upcoming Events Now! </h2>
+                         <div class="line-shape"></div>
+                    </div>
+                    <div class="contact-text">
+                        <p class="d-sm-none">See which bars are showing your favorite matches right now. Log in, choose your game and get your first drink, for FREE!
+                    </p>
+                    <p class="d-none d-sm-block">
+                        See which bars are showing your favorite matches right now. Visit our website on your phone, choose your game and get your first drink, for FREE!
+
+                    </p>
+                    </div>
+
+                     <div class="app-download-area d-none d-md-block m-md-auto m-lg-0">
+                                <div class="sign-in-btn wow fadeInUp  d-lg-inline-block" data-wow-delay="0.2s" onclick="on()">
+                                    <a>
+                                      <i class="fab fa-google"></i>
+                                        <p class="mb-0"><span>Sign in with</span> Google</p>
+                                    </a>
+                                </div>
+                                <div class="sign-in-btn wow fadeInDown  d-lg-inline-block" data-wow-delay="0.4s" onclick="on()">
+                                    <a>
+                                        <i class="fab fa-facebook-f"></i>
+                                        <p class="mb-0"><span>Sign in with</span> Facebook</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                </div>
+                <div class="col-md-6">
+                            <div class="event-area">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="upcoming-event">
+                                            <a href="#"><p class="event">Arsenal-Manchester United</p>
+                                                        <p class="when">Sun, Mar 10-5:30pm</p>
+                                                        <p  class="where">Shamrock Inn</p>
+                                            </a>
+                                        </div>
+                                        <div class="upcoming-event">
+                                            <a href="#" ><p class="event">Juventus-Atl. Madrid & Manchester City-Schalke</p>
+                                                        <p class="when">Tue, Mar 12-9:00pm</p>
+                                                        <p  class="where">SouthernCross Pub</p>
+                                            </a>
+                                        </div>
+                                        <div class="upcoming-event">
+                                            <a href="#"><p class="event">Barcelona-Lyon & BayernMunich-Liverpool</p>
+                                                        <p class="when">Sun, Mar 10-5:30</p>
+                                                        <p class="where">Shamrock Inn</p>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+              </div>
+              <div class="app-download-area d-md-none mx-auto">
+                                <div class="sign-in-btn wow fadeInUp d-sm-block" data-wow-delay="0.2s" onclick="on()">
+                                    <a >
+                                      <i class="fab fa-google"></i>
+                                        <p class="mb-0"><span>Sign in with</span> Google</p>
+                                    </a>
+                                </div>
+                                <div class="sign-in-btn wow fadeInDown d-sm-block mb-2" data-wow-delay="0.4s" onclick="on()">
+                                    <a >
+                                        <i class="fab fa-facebook-f"></i>
+                                        <p class="mb-0"><span>Sign in with</span> Facebook</p>
+                                    </a>
+                                </div>
+                                <a href="#" class="link-blue d-sm-none p-50">Check out our upcoming events</a>
+                            </div>
+               <!--<div class="contact-form d-none d-sm-block">
+                    <form action="#" method="post">
+                        <div class="input-area">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+
+                                        <input type="email" class="form-control " name="email" id="email" placeholder="Your E-mail" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="message" class="form-control " id="message" cols="35" rows="4" placeholder="Your Message *" required>
+                                        </textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 ">
+                                    <button type="submit" class="submit-button">Send Now </button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>-->
+
+
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="row justify-content-center">
+    <div class="col-12 col-md-8">&copy SportCompass 2019<br>Email: contact@sportcompass.dk&ensp;|&ensp;Phone: +4552604516</div>
+</div>
+</footer>
+</body>
+    <!--end of client feedback  -->
+
+    <!-- Jquery-2.2.4 JS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="js/slick.min.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+
+</html>

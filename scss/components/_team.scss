@@ -1,0 +1,53 @@
+/*------ The team at sport compass -----*/
+
+.team-member{
+    margin-bottom:50px;
+}
+.team-member-pic img{
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.team-member-title h4{
+    color:$color-secondary ;
+    font-size:$xs__heading;
+}
+.team-member-title p{
+    color:$light-grey;
+}
+.team-member-title h4, .team-member-title p{
+    margin-left: 5px;
+}
+team-area .slick-slide.team-member-pic  {
+     display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 129px;
+}
+.team-area .slick-arrow {
+    position: absolute;
+    width: 30px;
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #b5aec4;
+   /*display: block;*/
+    line-height: 600%;
+    left: 0;
+   z-index: 10;
+    cursor: pointer;
+}
+.team-area .slick-arrow.fa-angle-right {
+    left:auto;
+    right: 0;
+    top:0;
+}

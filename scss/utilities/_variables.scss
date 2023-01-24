@@ -1,0 +1,54 @@
+// _Global Vriables
+
+// ----------Font Weights----------//
+$font-weight--thin          : 100;
+$font-weight--light         : 300;
+$font-weight--medium        : 400;
+$font-weight--md-thick      : 500;
+$font-weight--bold          : 700;
+
+// --------------Colors--------------//
+
+$white                :#fff;
+$light-grey           :#b5aec4;
+$border-light         :#EFF2F6;
+
+$color-primary        :$white;    
+$color-secondary      :#34B3F5;      
+
+$kashmir-blue         :#50659D;
+$citrus               :#9FCE06;   
+$citrus-dark          :#92BD05;    
+$tandora              :#454545;   
+$picton-blue          :#34B3F5;  
+$icon-color           :#495C8F;  
+
+//-----------------heading--------------------
+
+$xxl__heading        : 100px;    
+$xl__heading         : 72px;       
+$large__heading      : 60px;       
+
+$md__heading          : 48px;  
+$md2__heading         : 36px;     
+$sm__heading          : 32px;     
+$xs__heading          : 22px;   
+
+//----------------- p-text size--------------------
+
+$base__font-size      : 16px;      
+$base-big__font-size  : 18px;     
+$base-sm__font-size  : 9px;   
+
+// -----------------Icon-size--------------------
+$icn--size        : 36px;        
+$icn-sm--size     : 30px;  
+$icn-xs--size     : 22px;              
+
+//---------------- Breakpoints----------------------
+$brkpoint-xxs       : 320px;
+/*$brkpoint-xs        : 479px;*/
+$brkpoint-xs        : 575px;
+$brkpoint-sm        : 768px;
+$brkpoint-md        : 992px;
+$brkpoint-lg        : 1100px;

@@ -1,0 +1,201 @@
+/* ------------------ client's feedback ------------------ */
+
+.feedback-area .name > h5 {
+    color: #34B3F5;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.feedback-area .star-icon > i {
+    font-size: 18px;
+    color: #f1b922;
+}
+.feedback-area .description > p {
+    max-width: 1010px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.feedback-area .client > i {
+    font-size: 48px;
+    color: #495C8F;
+    margin-bottom: 30px;
+}
+
+.feedback-area .name > p {
+    color: #b5aec4;
+}
+
+.feedback-area .slick-dots {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.feedback-area .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    text-indent: -999999999999999999999999px;
+    border: 3px solid #a49fba;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 5.5px;
+    outline: none;
+}
+
+.feedback-area .slick-dots li.slick-active button {
+    background-color: #34B3F5;
+    border-color: #34B3F5;
+}
+
+.feedback-area .slick-slide.thumbnail {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 129px;
+}
+
+
+.feedback-area .slick-slide img {
+    display: block;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 4px 20px rgba(80,101,157,0.1);
+    box-shadow: 0px 4px 20px rgba(80,101,157,0.1);
+}
+
+.feedback-area .slick-slide.slick-current img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.feedback-area .slick-arrow {
+    position: absolute;
+    width: 30px;
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #b5aec4;
+    /*display: block;*/
+     line-height: 550%;
+    left: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+    /* ------------------ client's feedback ------------------ */
+
+.feedback-area .name > h5 {
+    color: #34B3F5;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.feedback-area .star-icon > i {
+    font-size: 18px;
+    color: #f1b922;
+}
+.feedback-area .description > p {
+    max-width: 1010px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.feedback-area .client > i {
+    font-size: 48px;
+    color: #495C8F;
+    margin-bottom: 30px;
+}
+
+.feedback-area .name > p {
+    color: #b5aec4;
+}
+
+.feedback-area .slick-dots {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.feedback-area .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    text-indent: -999999999999999999999999px;
+    border: 3px solid #a49fba;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 5.5px;
+    outline: none;
+}
+
+.feedback-area .slick-dots li.slick-active button {
+    background-color: #34B3F5;
+    border-color: #34B3F5;
+}
+
+.feedback-area .slick-slide.thumbnail {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 129px;
+}
+
+
+.feedback-area .slick-slide img {
+    display: block;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 4px 20px rgba(80,101,157,0.1);
+    box-shadow: 0px 4px 20px rgba(80,101,157,0.1);
+}
+
+.feedback-area .slick-slide.slick-current img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.feedback-area .slick-arrow.fa-angle-right {
+    left: auto;
+    right: 0;
+    top: 0;
+}
+.feedback-area .slick-arrow.fa-angle-right {
+    left: auto;
+    right: 0;
+    top: 0;
+}

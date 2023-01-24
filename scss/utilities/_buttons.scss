@@ -1,0 +1,130 @@
+/*----Login button-Navigation----*/
+.login-button {
+    @include btn;
+    max-width: 178px;
+    min-width:150px;
+    font-size:$base__font-size;
+    border:2px solid $color-secondary;
+    margin-top:35px;
+    & a{
+    font-size:$base__font-size; 
+    color:$white;
+    }
+    &:hover{
+        background: $color-secondary ;
+        color: $white!important;
+        border: 2px solid $color-secondary ;
+    }
+    @include mq(medium){
+        border:2px solid $white;
+    }
+
+}
+/*----follow-us-Button--Hero Area----*/
+
+.download-app .sign-in-btn a{
+    background:$citrus;
+    border:transparent;
+    cursor:pointer;
+    @include mq(small){
+        width:190px!important;
+        margin-right:15px;
+    }@include mq(medium){
+        width:230px!important;
+
+    }
+    &:hover{
+        background:$citrus-dark;
+    }
+}
+.download-app .sign-in-btn a p{
+    color:$white;
+}
+.download-app .sign-in-btn a i{
+    color:$white;
+}
+
+/*----SignIn-Button--No-sign-up-required-Area----*/
+
+.sign-in-btn  a{
+    width:100%;
+    border: 1px solid #ddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px 25px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 10px 30px rgba(80,101,157,0.1);
+    box-shadow: 0 10px 30px rgba(80,101,157,0.1);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top:15px;
+    transition:.5s;
+    cursor:pointer;
+    z-index:100;
+    
+}
+.no-signup-area .sign-in-btn a{
+    @include mq(small){
+        padding: 14px 45px;
+    }
+     @include mq(medium){
+         padding: 12px 25px;
+    }
+}
+
+.sign-in-btn.active a,
+.sign-in-btn a:hover {
+    border-color: transparent;
+    background-color: #34B3F5;
+}
+
+.sign-in-btn a i {
+    color: #47425d;
+    font-size: 24px;
+    margin-right: 15px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+ }
+
+.sign-in-btn a p {
+    font-size: 16px;
+    line-height: 1;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+ }
+.sign-in-btn {
+@include mq(small){
+    margin-right:10px;
+}
+    
+}
+.sign-in-btn a p span {
+    font-size: 12px;
+    display: block;
+}
+
+
+
+.sign-in-btn a:hover i,
+.sign-in-btn.active a i,
+.sign-in-btn.active a p,
+.sign-in-btn a:hover p {
+    color: #fff;
+}
+
+
+.submit-button{
+      @include btn;
+      background:$color-secondary;
+      width:200px;
+    &:hover{
+        border: 2px solid $color-secondary;
+    }
+}

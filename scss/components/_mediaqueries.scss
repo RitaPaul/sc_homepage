@@ -1,0 +1,16 @@
+/*----------- Media queries for Bigger Screens -----------*/
+
+@media (min-width:$brkpoint-sm){
+/*
+    .sign-in-btn:first-child {
+    margin-right: 20px;
+}
+.download-app:first-child {
+    margin-right: 20px;
+}*/
+}
+@media (max-width: $brkpoint-md ) and (min-width: $brkpoint-sm){
+    .counter-area .counter{
+        font-size: 30px;
+    }
+}   

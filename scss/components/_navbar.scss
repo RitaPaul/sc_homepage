@@ -1,0 +1,121 @@
+/* ---------------- The Navigation bar ---------------- */
+.header_area{
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    padding: 0 4%;
+    background:$color-primary;
+    @include mq(medium){
+        background:transparent;
+    }
+}
+.menu-area{
+    position: relative;
+    z-index:2;
+}
+.navbar-brand,.login-button {
+    color:$color-secondary!important;
+    
+    @include mq(medium){
+        color:$white!important;
+    }
+}
+.nav-link{
+    color:$kashmir-blue!important;;
+     @include mq(medium){
+        color:$white!important;
+    }
+}
+.navbar-brand{
+    font-size: $md__heading ;
+    font-weight:$font-weight--bold;
+     -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    padding:0;
+    @include mq(large){
+        font-size: $xl__heading ;
+    }
+}
+.navbar-nav{
+    height:90vh;
+    padding:15px;
+    @include mq(medium){
+        height:inherit
+    }
+}
+.nav-link {
+    color: $white;
+    display: block;
+    font-size: $base__font-size;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+   /*padding: 35px 15px;*/
+    /*padding: 5px 20px;*/
+}
+
+
+/* ---- ---- --- Header area sticky Navigation on scroll --- ---- ----*/
+
+.header_area.sticky {
+    background:$color-primary;
+    -webkit-box-shadow: 0 4px 20px rgba(80,101,157,0.2);
+            box-shadow: 0 4px 20px rgba(80,101,157,0.2);
+    padding: 0 4%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    @include mq(medium){
+        background:$white!important;
+        color:$tandora!important;
+    }
+}
+.header_area.sticky .menu-area .navbar-brand {
+    font-size: $md__heading;
+    @include mq(medium){
+        color:$color-secondary!important;
+    }
+}
+.header_area.sticky .navbar {
+    padding: 0!important;
+}
+
+.header_area.sticky .login-button a  {
+    color: $color-secondary!important;
+ 
+}
+.header_area.sticky .login-button:hover a{
+    color:white!important;
+}
+    .header_area.sticky .login-button{
+       
+        border: 2px solid $color-secondary;
+         margin-top:20px!important;
+        
+    }
+   /* @include mq(medium){
+        color: $color-secondary!important;
+        border: 2px solid $color-secondary;
+    }*/
+
+.fix-it{
+    position:absolute;
+    bottom:20%;
+}
+.header_area.sticky .menu-area .nav-link {
+    display: block;
+    font-size: $base__font-size;
+    font-weight: $font-weight--md-thick;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    /*color:$kashmir-blue;*/
+    @include mq(medium){
+        padding: 15px 15px;
+        color:$tandora !important;
+    }
+}
+

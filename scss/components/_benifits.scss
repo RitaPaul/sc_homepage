@@ -1,0 +1,57 @@
+/*---------------------Benifit Area-----------------------*/
+.benifit-icon{
+	margin-bottom: 25px;
+}
+.benifit-icon > i{
+	font-size:$icn--size;
+	color:$icon-color;
+}
+.benefits {
+	border: 1px solid $border-light;
+	padding: 40px;
+	border-radius: 10px;
+	webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    margin-bottom: 30px;
+&:hover {
+    -webkit-box-shadow: 0 10px 90px rgba(80,101,157,0.2);
+            box-shadow: 0 10px 90px rgba(80,101,157,0.2);
+	}
+}
+.benefits > h4{
+	font-size:$xs__heading;
+	color:$color-secondary;
+}
+p{
+	color:#726a84;;
+	font-size:$base__font-size;
+	font-weight:$font-weight--md-thick;
+	margin-top:0;
+}
+/*-------------No Sign up Required Area-------------*/
+
+.app-download-area, .download-app{
+    display: block;
+    @include mq(small){
+    	display: -moz-flex;
+    	display: -ms-flex;
+    	display: -o-flex;
+    	display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: flex;
+    -ms-flex-preferred-size: 1;
+    	flex-basis: 1;
+    	margin-top: 50px;
+    }
+}
+.no-signup-img > img{
+	width:100%;
+}
+.no-signup-content > h2{
+	font-size:30px;
+	color:$color-secondary!important;
+	margin-bottom:30px;
+@include mq(small){
+	font-size:$md__heading ;
+}}
